@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  
+	.sidenav {
+	  height: 100%;
+	  width: 160px;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  padding-top: 20px;
+	}
+
+	.sidenav a {
+	  padding: 6px 8px 6px 16px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	}
+
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
+
+	.main {
+	  margin-left: 160px; /* Same as the width of the sidenav */
+	  font-size: 28px; /* Increased text to enable scrolling */
+	  padding: 0px 10px;
+	}
+
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 18px;}
+	}
+</style>
+</head>
+<body>
+
+
+<!-- Side navigation bar -->
+<div class="sidenav">
+  <a href=""></a>
+  <a href=""></a>
+  <a href=""></a>
+  <a href="Lectures.html">Lectures</a>
+  <a href="Labs.html">Labs</a>
+  <a href="Tutorials.html">Tutorials</a>
+</div>
+
+
+<!-- Big Picture to be changed -->
+<div class="header-row" id="header-row" style="height: 100%;">
+      <div class="row"> 
+         <div class="col-xs-12"> 
+            <a class="navbar-brand logo" href="index.html">
+               <img src="Banner.png" alt="company logo" style="width: 100%;">
+            </a> 
+         </div>     
+      </div>
+</div>
+
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+  <a class="navbar-brand" href="#">InsertIcon</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Main.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="forum.html">Forum</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link" href="Kali Connect.html">Kali Connect</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link active dropdown-toggle" href="learning.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Learn
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Lectures.html">Lectures</a>
+          <a class="dropdown-item" href="Labs.html ">Labs</a>
+          <a class="dropdown-item" href="Tutorials.html">Tutorials</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Profile</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav justify-content-end">
+    <li class="nav-item">
+      <a  href="/pro/loggedout/Main.html" class="nav-link active">Sign Out</a>
+    </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Content -->
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Kali Linux Lab 1: Nmap</h2>
+      <h5>In this lab you will be taught the fundamentals of Nmap</h5>
+      <div class="Lab1">
+        <a class="Lab1 logo">
+          <img src="Lab1.png" alt="Lab1 logo" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Kali Linux Lab 2: SQL Injections</h2>
+      <h5>In this lab you will be taught the fundamentals of SQL Injections</h5>
+      <div class="Lab2">
+        <a class="Lab2 logo">
+          <img src="Lab2.png" alt="Lab2 logo" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Kali Linux Lab 3: Jack The Ripper</h2>
+      <h5>In this lab you will be taught the fundamentals of Jack The Ripper</h5>
+      <div class="Lab3">
+        <a class="Lab3 logo">
+          <img src="Lab3.png" alt="Lab3 logo" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Kali Linux Lab 4: ...</h2>
+      <h5>In this lab you will be taught the fundamentals of...</h5>
+      <div class="Lab4">
+        <a class="Lab4 logo">
+          <img src="Lab4.png" alt="Lab4 logo" style="width: 100%;">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+
+</body>
